@@ -4,5 +4,5 @@ dependencies {
 	expectedBy project(":korio-ext-db-elasticsearch-common")
 
 	compile project(":korio-ext-db-base")
-	compile project(":korio")
+	compile "com.soywiz:korio:$korioVersion"
 }
