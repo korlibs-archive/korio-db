@@ -177,13 +177,13 @@ allprojects {
 						name "${project.name}"
 						packaging 'jar'
 						description 'Korio: Kotlin cORoutines I/O : Streams + Async TCP Client/Server + Virtual File System for JVM, Node.JS and Browser'
-						url 'https://github.com/soywiz/korio/'
+						url 'https://github.com/korlibs/korio-db/'
 						inceptionYear '2016'
 
 						scm {
-							url 'scm:git@github.com:soywiz/korio.git'
-							connection 'scm:git@github.com:soywiz/korio.git'
-							developerConnection 'scm:git@github.com:soywiz/korio.git'
+							url 'scm:git@github.com:korlibs/korio-db.git'
+							connection 'scm:git@github.com:korlibs/korio-db.git'
+							developerConnection 'scm:git@github.com:korlibs/korio-db.git'
 						}
 
 						licenses {
