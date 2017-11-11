@@ -1,15 +1,17 @@
 package com.soywiz.korio.ext.db.cassandra
 
+import com.soywiz.kds.Pool
+import com.soywiz.kds.lmapOf
+import com.soywiz.kmem.*
 import com.soywiz.korio.Language
 import com.soywiz.korio.async.AsyncQueue
 import com.soywiz.korio.async.ProduceConsumer
 import com.soywiz.korio.async.Promise
 import com.soywiz.korio.async.go
-import com.soywiz.korio.ds.lmapOf
 import com.soywiz.korio.lang.*
 import com.soywiz.korio.net.AsyncClient
 import com.soywiz.korio.stream.*
-import com.soywiz.korio.util.*
+import com.soywiz.korio.util.AsyncCloseable
 
 // https://raw.githubusercontent.com/apache/cassandra/trunk/doc/native_protocol_v3.spec
 class Cassandra private constructor(

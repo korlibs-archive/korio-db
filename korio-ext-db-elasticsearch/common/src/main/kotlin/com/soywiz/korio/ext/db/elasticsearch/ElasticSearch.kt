@@ -1,7 +1,7 @@
 package com.soywiz.korio.ext.db.elasticsearch
 
+import com.soywiz.kds.lmapOf
 import com.soywiz.klock.TimeSpan
-import com.soywiz.korio.ds.lmapOf
 import com.soywiz.korio.lang.Dynamic
 import com.soywiz.korio.net.http.Http
 import com.soywiz.korio.net.http.HttpClientEndpoint

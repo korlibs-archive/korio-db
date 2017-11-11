@@ -1,8 +1,8 @@
 package com.soywiz.korio.ext.db.elasticsearch
 
+import com.soywiz.kds.lmapOf
 import com.soywiz.klock.seconds
 import com.soywiz.korio.async.syncTest
-import com.soywiz.korio.ds.lmapOf
 import com.soywiz.korio.net.http.FakeHttpClientEndpoint
 import com.soywiz.korio.net.http.rest.rest
 import com.soywiz.korio.serialization.ObjectMapper

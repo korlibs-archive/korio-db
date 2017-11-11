@@ -2,10 +2,10 @@ package com.soywiz.korio.ext.db.redis
 
 import com.soywiz.korio.IOException
 import com.soywiz.korio.RuntimeException
+import com.soywiz.korio.async.AsyncPool
 import com.soywiz.korio.async.AsyncThread
 import com.soywiz.korio.async.sleep
 import com.soywiz.korio.coroutine.withCoroutineContext
-import com.soywiz.korio.ds.AsyncPool
 import com.soywiz.korio.lang.*
 import com.soywiz.korio.net.AsyncClient
 import com.soywiz.korio.net.HostWithPort
