@@ -1,14 +1,11 @@
 import org.apache.tools.ant.taskdefs.condition.Os
 
 buildscript {
-	ext.korioVersion = "0.17.1"
-	ext.kotlinVersion = '1.2.0-rc-39'
-	ext.eapChannel = 'http://dl.bintray.com/kotlin/kotlin-eap-1.2'
-	ext.serializationPluginVersion = '0.1'
+	ext.korioVersion = "0.18.0"
+	ext.kotlinVersion = '1.2.0'
 
 	repositories {
 		jcenter()
-		maven { url eapChannel }
 		maven { url "https://plugins.gradle.org/m2/" }
 		mavenLocal()
 	}
@@ -22,7 +19,6 @@ allprojects {
 	repositories {
 		mavenLocal()
 		jcenter()
-		maven { url eapChannel }
 		mavenLocal()
 	}
 
