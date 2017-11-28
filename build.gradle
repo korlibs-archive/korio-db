@@ -23,7 +23,7 @@ allprojects {
 	}
 
 	group 'com.soywiz'
-	version "0.17.2-SNAPSHOT"
+	version "0.18.0"
 
 	apply plugin: 'java'
 	apply plugin: 'maven'
